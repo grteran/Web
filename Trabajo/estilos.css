@@ -13,7 +13,7 @@ body{
 /*ESTILO PARA LA IMAGEN LOGO*/	
 
 #logo{
-	background: url("../imagenes/logoagencia.png") no-repeat right;
+	background: url("imagenes/logoagencia.png") no-repeat right;
 	margin: 0 auto 0 auto;
 	background-size: 50%;
 	padding: 20em 0em 0em 0em;
