@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*/ESTILO PARA EL CUERPO DEL DOCUMENTO*/
+
+body{
+	background-color: aquamarine;
+	width: 80%;
+	height: 80%;
+}
+
+/*ESTILOS PARA LOS ENLACES DE NAVEGACION PRINCIPAL*/
+
+.menu li{
+	display: inline-block;
+}
+
+.menu a{
+	display: block;
+	float:left;
+	margin-right: 0.12em;
+	padding: 1em 1.5em;
+	box-shadow: #178eae;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #0c749c;
+	text-transform: uppercase;
+	font-size: 0.90em;
+}
+
+#tabla{
+	border: thick;
+	width: 80%;
+	border-color: #000000;
+	
+}
+
+.articulos{
+	width: 80%;
+}
+
+.video{
+	width: 50%;
+	height: 50%;
+}

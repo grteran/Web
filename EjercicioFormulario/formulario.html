@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="pagina ejercicio formulario">	
+<meta name="Keywords" content="Formulario, Ejercicio">	
+<link rel="stylesheet" href="estilo.css">
+
+<title>Ejercicio Formulario</title>
+</head>
+
+<body>
+	
+	<header id="logo">
+		<h1><a href="index.html" id="arriba">AVANCES TECNOLÓGICOS</a></h1>
+		<p>Bienvenidos a nuestro sitio Web</p>
+	</header>
+	
+	<div>
+		<nav class="menu">
+		     <ul>
+			     <li><a href="index.html" title="Pagina Principal">Inicio</a></li>
+				 <li><a href="formulario.html" title="Nosotros">Formulario</a></li>
+				 <li><a href="videos.html" title="videos">Videos</a></li>
+			 </ul>
+		</nav>
+	</div>
+	
+	<div>
+		
+		<form action="https://www.utpl.edu.ec" method="get" target="_blank">
+  <fieldset>
+    <legend>Información básica</legend>
+    <p><label>Nombre completo: <input autofocus type="text" name="nombrecompleto" placeholder="Nombres completos" required></label></p>
+	<p><label>Email: <input type="email" name="correo" required></label></p>  
+	<p><label><a href="https://developer.mozilla.org/es/docs/Learn/Forms/Your_first_form" target="_blank">Necesitas Ayuda presiona este enlace</a></label></p>    
+    <p><label>Fecha de registro: <input type="date" name="fechaderegistro"></label></p>
+	<p><label>Hora de registro: <input type="time" name="horaderegistro"> </label></p> 
+	<p><label>Edad: <input type="number" min="18" max="65"></label></p>  
+    <p><label>Número de contacto: <input type="tel" name="telefono"></label></p>
+	<p><label>Color favorito: <input type="color" name="colorfavorito"></label></p>  
+  </fieldset>
+  
+  <p>
+    <input type="submit" value="Enviar datos">
+    <input type="reset" value="Restaurar formulario">
+  </p>
+</form>
+	
+	</div>
+	
+	<footer id="pie"><p><small>Todos los derechos reservados -@2022</small></p></footer>
+</body>
+</html>
